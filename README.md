@@ -64,6 +64,7 @@ En esta ocasión se incorporó la funcionalidad de que al terminar de ejecutar u
 
 Opción 1: muestra el menu de promociones.
 Se indica al usuario que los descuentos no son acumulativos y que el sistema aplica el mayor descuento según genero y edad. 
+
 ![Captura de pantalla 2025-05-10 121155](https://github.com/user-attachments/assets/89804727-6532-44d2-ad9e-8320b8285fa0)
 
 
