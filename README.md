@@ -166,7 +166,7 @@ MODIFICACIÓN DE RESERVA
 
 En la modificacion de la reserva se permite solo la devolución de entradas, retroalimentando constantemente al usuario durante el proceso, valida la cantidad de asientos que desea devolver para modificar su reserva y retroalimenta mostrando el mapa con la liberación de los asientos y manteniendo la reserva pertinente.
 
-![Captura de pantalla 2025-05-10 144007](https://github.com/user-attachments/assets/5af73298-567a-4283-9b69-ed5502558280)
+![Captura de pantalla 2025-05-10 151029](https://github.com/user-attachments/assets/c4ed3f0c-6322-425b-9935-6a4b1499d7ea)
 
 Se puede verificar que la reserva modificó su información al enlistar las reservas y ahora la reserva figura con solo un asiento
 
