@@ -95,7 +95,7 @@ La opcion 10 de Estadísticas Generales en estado inicial muestra todas las vari
 
 
 
-En las opciones 11, 12, 13 donde se despliegan las listas, al inicio como no tiene información le indica al usuario que no hay registros todavía:
+En las opciones 11, 12, 13, 14, 15 donde se despliegan las listas, al inicio como no tiene información le indica al usuario que no hay registros todavía:
 
 
 ![Captura de pantalla 2025-05-10 124528](https://github.com/user-attachments/assets/3479d35b-3288-4c84-82b5-9a859eca8df3)
@@ -111,24 +111,37 @@ En las opciones 11, 12, 13 donde se despliegan las listas, al inicio como no tie
 
 
 
-
-
-
-
 En el proceso principal que es la reserva de las entradas, se despliega el mapa de manera inicial para que el usuario pueda ver el estado actual de los asientos y se procede a solicitar los datos, por cada dato, se validan inputs del usuario manejando errores: 
 
-Para la cantidad de entradas se valida si desea más entradas de las disponibles, o si ingresa 0 o con strings:
-
-![Captura de pantalla 2025-05-05 151246](https://github.com/user-attachments/assets/b859eff1-7dce-489f-b3b6-e750e31238b8)
+![Captura de pantalla 2025-05-10 125117](https://github.com/user-attachments/assets/ecbd40b6-2104-4994-bdcd-de435fa4370c)
 
 Se valida si la ubicación es una opción distinta a las mencionadas: 
-![Captura de pantalla 2025-05-05 151121](https://github.com/user-attachments/assets/253c6f14-bc77-42b5-9191-4247ca981df9)
 
-Se solicita el ingreso de la ubicación del asiento uno por uno según la cantidad de entradas y se valida el input del usuario, solicitando el ingreso correcto de datos.
+![Captura de pantalla 2025-05-10 125209](https://github.com/user-attachments/assets/4aaafc5f-3229-47e1-ba07-baa53c24ce56)
+
+
+Para la cantidad de entradas:
+se valida si desea más entradas de las disponibles en total en el teatro
+se valida si desea más que las disponibles en cada sector
+se valida si desea cero
+se valida si ingresa string
+se valida si al ingresar el sector ya no quedan entradas disponibles en esa ubicacion seleccionada.
+
+![Captura de pantalla 2025-05-10 133822](https://github.com/user-attachments/assets/c27395cb-0d4d-4035-ae23-c1f1283f919e)
+
+![Captura de pantalla 2025-05-10 140157](https://github.com/user-attachments/assets/5fefc5b8-ec28-4833-86fb-011ac7a9771d)
+
+![Captura de pantalla 2025-05-10 140032](https://github.com/user-attachments/assets/c4f28edd-659e-481d-982b-63797a40850d)
+
+
+
 
 Si selecciona VIP que es la fila A , e ingresa el asiento B1, el programa indica que "no pertenece a la ubicación seleccionada"
 
-![Captura de pantalla 2025-05-05 151448](https://github.com/user-attachments/assets/867ce989-bcec-4ab8-a6cf-5eea5804cfb9)
+![Captura de pantalla 2025-05-10 140555](https://github.com/user-attachments/assets/7209d4ee-eafb-4cfe-a428-2e7a895b6ae4)
+
+
+
 
 Si el usuario ingresa un asiento que ya está reservado u ocupado infomra que "el asiento no está disponible":
 ![Captura de pantalla 2025-05-05 151639](https://github.com/user-attachments/assets/0be7453f-b005-41b5-a394-c3c7a0a25278)
