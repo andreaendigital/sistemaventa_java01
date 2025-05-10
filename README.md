@@ -198,19 +198,22 @@ Si el usuario ingresa una respuesta no valida, se maneja esto:
 
 CONFIRMACIÓN DE COMPRA
 
-
 Si la persona NO confirma la compra, se liberan los asientos de su reserva y se verifican en el mapa: 
-![Captura de pantalla 2025-05-05 153632](https://github.com/user-attachments/assets/41cf7af0-9cbd-4c89-90e2-9a1bcdc9f13c)
+![Captura de pantalla 2025-05-10 151449](https://github.com/user-attachments/assets/a33eb955-0f99-4361-8557-b466b23243ba)
 
 El ejercicio fue realizar una reserva, no confimarla como compra, de todas maneras, la lista de reservas la registra como realizada, ya que existió, pero no se generó la compra: 
 ![Captura de pantalla 2025-05-05 153757](https://github.com/user-attachments/assets/e66c7bcc-d827-4e61-99a7-a1ca6043558b)
 
-Así mismo se creó el registro del cliente: 
-![Captura de pantalla 2025-05-05 153854](https://github.com/user-attachments/assets/1ba22d5e-f005-4a2e-9247-3a29f55a9b54)
-
-
 Al confirmar la compra, se muestra el mapa con los asientos ocupados "OO":
 ![Captura de pantalla 2025-05-05 154253](https://github.com/user-attachments/assets/efd90fe1-07aa-4a26-a232-0334800ff776)
+
+
+
+
+
+
+
+
 
 ANULACION DE COMPRA:
 En el siguiente caso, se realiza la compra de asiento b1 y b2 y se anula la compra
