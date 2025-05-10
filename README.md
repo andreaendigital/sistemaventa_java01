@@ -58,41 +58,62 @@ Para este paso, tendrás que realizar una presentación en video de tu proyecto 
 
 
 Menú interactivo inicial con manjeo de errores según inputs del usuario:
-![Captura de pantalla 2025-05-05 144111](https://github.com/user-attachments/assets/9b8480e7-e0c5-4695-b06a-aee78c3b01f0)
+![Captura de pantalla 2025-05-10 120958](https://github.com/user-attachments/assets/75c829cb-376a-469e-a109-56b88a32290a)
 
 En esta ocasión se incorporó la funcionalidad de que al terminar de ejecutar un "case" o una opción del menú, el programa hace una pausa indicandole al usuario que presione ENTER para volver al menú y este se despliega nuevamente para elegir la siguiente acción. 
 
-Opción 1: muestra el menu de promociones
-
-![Captura de pantalla 2025-05-05 144155](https://github.com/user-attachments/assets/49de99d1-b696-405e-92e2-277932851d23)
+Opción 1: muestra el menu de promociones.
+Se indica al usuario que los descuentos no son acumulativos y que el sistema aplica el mayor descuento según genero y edad. 
+![Captura de pantalla 2025-05-10 121155](https://github.com/user-attachments/assets/89804727-6532-44d2-ad9e-8320b8285fa0)
 
 
 Opción 2: muestra el mapa inicial, con el estado actual cada vez que se inicia una reserva/compra.
+En esta versión se agregan las refrencias y un titulo para enriquecer la experiencia del usuario en la parte visual.
 Se decidió la estructura de datos de Array ya que es una cantidad definida de elementos con las que se puede trabajar, optimizando así este segmento del código. 
-![Captura de pantalla 2025-05-05 144353](https://github.com/user-attachments/assets/9015d8c8-aa12-4716-a851-c1398466d02f)
 
-Opciones 4, 5, 6, 7, no se ejecutan si no existe una reserva o venta previamente: 
+![Captura de pantalla 2025-05-10 122049](https://github.com/user-attachments/assets/4a0d7232-e483-4bb8-b903-ebf0bab90b93)
 
-![Captura de pantalla 2025-05-05 144527](https://github.com/user-attachments/assets/0215f345-5901-4428-bb75-3d17fb79c4ad)
 
-![Captura de pantalla 2025-05-05 144538](https://github.com/user-attachments/assets/c59826d3-e4dd-4f5d-9b92-2ff8e1813ffa)
+Opciones 4, 5, 6, 7, 8, 9 no se ejecutan si no existe una reserva o venta previamente: 
 
-![Captura de pantalla 2025-05-05 144547](https://github.com/user-attachments/assets/752280c2-3a63-4f3c-9e75-a20355989b8a)
+![Captura de pantalla 2025-05-10 123446](https://github.com/user-attachments/assets/d012b2f5-2b01-4b74-b263-ae0cfef64bc0)
 
-![Captura de pantalla 2025-05-05 144610](https://github.com/user-attachments/assets/731fff08-7c5a-4f09-bd59-a04bc2f4222d)
+![Captura de pantalla 2025-05-10 123456](https://github.com/user-attachments/assets/d0e56a06-f97f-4771-95fc-73d937c9e424)
 
-La opcion 8 de Estadísticas Generales en estado inicial muestra todas las variables e incluye un resumen del mapa en el momento de la consulta. En este caso es antes de hacer alguna operación: 
-![Captura de pantalla 2025-05-05 150236](https://github.com/user-attachments/assets/12767cc7-42aa-450c-8b34-bd85baa869f6)
+![Captura de pantalla 2025-05-10 123501](https://github.com/user-attachments/assets/fa1b23d1-c492-44ac-8491-97c40dea5a54)
 
-En las opciones 9, 10, 11 y 12, donde se despliegan las listas, al inicio como no tiene información le indica al usuario que no hay registros todavía:
+![Captura de pantalla 2025-05-10 123509](https://github.com/user-attachments/assets/3d8f8e85-ae78-4e81-9f22-e6900091c6aa)
 
-![Captura de pantalla 2025-05-05 150336](https://github.com/user-attachments/assets/09c93bb4-511f-4fe3-b702-1fa2ccf85044)
+![Captura de pantalla 2025-05-10 123515](https://github.com/user-attachments/assets/1c485e12-5b3b-43ea-8f29-8af1854825ac)
 
-![Captura de pantalla 2025-05-05 150347](https://github.com/user-attachments/assets/4ddaa31a-5c6e-4a3a-bc1d-9ea4f4284ff1)
+![Captura de pantalla 2025-05-10 123541](https://github.com/user-attachments/assets/200740c4-73db-4d03-b43c-57c368d39443)
 
-![Captura de pantalla 2025-05-05 150402](https://github.com/user-attachments/assets/9c28d9a6-100f-467c-8fa6-a6f6e1b39286)
 
-![Captura de pantalla 2025-05-05 150413](https://github.com/user-attachments/assets/b062315d-b72f-463e-aa76-35a7bbbdc6a7)
+La opcion 10 de Estadísticas Generales en estado inicial muestra todas las variables e incluye un resumen del mapa en el momento de la consulta. En este caso es antes de hacer alguna operación: 
+
+![Captura de pantalla 2025-05-10 123734](https://github.com/user-attachments/assets/6cb3d7b9-ddd8-492b-a0ad-b268bb15d372)
+
+
+
+En las opciones 11, 12, 13 donde se despliegan las listas, al inicio como no tiene información le indica al usuario que no hay registros todavía:
+
+
+![Captura de pantalla 2025-05-10 124528](https://github.com/user-attachments/assets/3479d35b-3288-4c84-82b5-9a859eca8df3)
+
+![Captura de pantalla 2025-05-10 124538](https://github.com/user-attachments/assets/377be58f-e2b3-43e1-a83b-ef9ae7b6d074)
+
+![Captura de pantalla 2025-05-10 124547](https://github.com/user-attachments/assets/4ce2b0b9-e5f6-4844-aedc-31b2085b2e5f)
+
+![Captura de pantalla 2025-05-10 124615](https://github.com/user-attachments/assets/d17ec2cc-5c8b-462c-a1ad-a00ca0c8327f)
+
+![Captura de pantalla 2025-05-10 124626](https://github.com/user-attachments/assets/45e9d85b-889c-4c25-97b0-91b8e60b1a71)
+
+
+
+
+
+
+
 
 En el proceso principal que es la reserva de las entradas, se despliega el mapa de manera inicial para que el usuario pueda ver el estado actual de los asientos y se procede a solicitar los datos, por cada dato, se validan inputs del usuario manejando errores: 
 
