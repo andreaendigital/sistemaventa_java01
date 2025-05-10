@@ -121,13 +121,13 @@ Se valida si la ubicación es una opción distinta a las mencionadas:
 
 
 Para la cantidad de entradas:
-se valida si desea más entradas de las disponibles en total en el teatro
-se valida si desea más que las disponibles en cada sector
-se valida si desea cero
-se valida si ingresa string
-se valida si al ingresar el sector ya no quedan entradas disponibles en esa ubicacion seleccionada.
+- se valida si desea más entradas de las disponibles en total en el teatro
+- se valida si desea más que las disponibles en cada sector
+- se valida si desea cero
+- se valida si ingresa string
+- se valida si al ingresar el sector ya no quedan entradas disponibles en esa ubicacion seleccionada.
 
-![Captura de pantalla 2025-05-10 133822](https://github.com/user-attachments/assets/c27395cb-0d4d-4035-ae23-c1f1283f919e)
+![Captura de pantalla 2025-05-10 140520](https://github.com/user-attachments/assets/d640d86f-1848-499a-9196-37216a095ecf)
 
 ![Captura de pantalla 2025-05-10 140157](https://github.com/user-attachments/assets/5fefc5b8-ec28-4833-86fb-011ac7a9771d)
 
@@ -138,7 +138,8 @@ se valida si al ingresar el sector ya no quedan entradas disponibles en esa ubic
 
 Si selecciona VIP que es la fila A , e ingresa el asiento B1, el programa indica que "no pertenece a la ubicación seleccionada"
 
-![Captura de pantalla 2025-05-10 140555](https://github.com/user-attachments/assets/7209d4ee-eafb-4cfe-a428-2e7a895b6ae4)
+![Captura de pantalla 2025-05-10 140555](https://github.com/user-attachments/assets/833c9e78-4253-45c1-acfa-0678eeb2d621)
+
 
 
 
