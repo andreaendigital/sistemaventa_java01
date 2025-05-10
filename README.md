@@ -134,50 +134,70 @@ Para la cantidad de entradas:
 ![Captura de pantalla 2025-05-10 140032](https://github.com/user-attachments/assets/c4f28edd-659e-481d-982b-63797a40850d)
 
 
-
-
 Si selecciona VIP que es la fila A , e ingresa el asiento B1, el programa indica que "no pertenece a la ubicación seleccionada"
-
 ![Captura de pantalla 2025-05-10 140555](https://github.com/user-attachments/assets/833c9e78-4253-45c1-acfa-0678eeb2d621)
-
-
-
-
 
 Si el usuario ingresa un asiento que ya está reservado u ocupado infomra que "el asiento no está disponible":
 ![Captura de pantalla 2025-05-05 151639](https://github.com/user-attachments/assets/0be7453f-b005-41b5-a394-c3c7a0a25278)
 
-Con la selección hecha, retroalimenta al usuario visualmente de su elección y pide siguiente dato:
+Luego de solicitar la cantidad de entradas, por cada entrada
+- solicita y valida asiento
+- solicita rut y valida que sea número
+- solicita nombre
+- solicita edad (con lo que calcula el descuento a aplicar)
+- solicita y valida el genero (con lo cual calcula el descuento a aplicar)
+- realiza un resumen de cada entrada, por entrada, y luego pasa a los datos de la siguiente entrada
 
-![Captura de pantalla 2025-05-05 151735](https://github.com/user-attachments/assets/61c2dfba-cfae-4b82-b70b-5109bd68afa8)
+![Captura de pantalla 2025-05-10 143037](https://github.com/user-attachments/assets/cdefb085-5ece-4c7b-b231-8338a33a0338)
 
-Solicita últimos datos para aplicación de descuentos, retroalimentando con el valor de la entrada y el descuento a aplicar: 
+Al terminar el ingreso de datos por entrada retroalimetna al usuario con los asientos reservados:
 
-![Captura de pantalla 2025-05-05 151923](https://github.com/user-attachments/assets/318d845f-5845-47a9-af4e-ca6238483f04)
 
-Al finalizar el proceso de reserva:
-- genera un resumen de la reserva
-- si el cliente no ha sido ya registrado, lo registra retroalimentando con un mensaje
-- informa el numero de la reserva
-- indica instrucciones para proceder, informando que lo devolverán al menú principal
-- 
-![Captura de pantalla 2025-05-05 152023](https://github.com/user-attachments/assets/c9f18e98-e686-4c4e-95db-eabef7ec6952)
+![Captura de pantalla 2025-05-10 143422](https://github.com/user-attachments/assets/c0404233-c23a-42ae-8cf4-d477d6023c4a)
 
-En la opcion 4 de modificación de reserva, valida la cantidad de asientos que desea devolver para modificar su reserva y retroalimenta mostrando el mapa con la liberación de los asientos y manteniendo la reserva pertinente.
+Solicita luego ingresar información de quien paga, lo que internamente categoriza como el cliente principal, en el rol de "comprador" y genera un resumen de la reserva con un resumen de los tickets que esta comprando.
 
-![Captura de pantalla 2025-05-05 152833](https://github.com/user-attachments/assets/41067f16-87ea-47ad-9e79-c26c8f32a71b)
+![Captura de pantalla 2025-05-10 143606](https://github.com/user-attachments/assets/3dd1f348-67a0-4d84-b953-fd85f48b6650)
 
-Si se desea eliminar la reserva, la opción pide una segunda verificación y si la persona opta por NO eliminar la reserva, los asientos continúan reservados: 
+Para realizar la compra debe volver al menu principal e ingresar el numero de ID de la compra que se señala dos veces en la imagen anterior, con el mismo ID puede modificar la reserva o eliminarla.
+
+
+MODIFICACIÓN DE RESERVA 
+
+En la modificacion de la reserva se permite solo la devolución de entradas, retroalimentando constantemente al usuario durante el proceso, valida la cantidad de asientos que desea devolver para modificar su reserva y retroalimenta mostrando el mapa con la liberación de los asientos y manteniendo la reserva pertinente.
+
+![Captura de pantalla 2025-05-10 144007](https://github.com/user-attachments/assets/5af73298-567a-4283-9b69-ed5502558280)
+
+Se puede verificar que la reserva modificó su información al enlistar las reservas y ahora la reserva figura con solo un asiento
+
+![Captura de pantalla 2025-05-10 144151](https://github.com/user-attachments/assets/ed203b9c-71e9-41a3-896c-c71c20acdb83)
+
+
+ELIMINACION DE RESERVA
+
+Para la eliminación de reservas, solicita ingresar el id de la reserva que desea eliminar, pidiendo una segunda verificación, si la persona opta por NO eliminar la reserva, los asientos continúan reservados:
+
+Importante: libera los asientos pero todas las reservas eliminadas o confirmadas quedan en un histórico.
+Mejoras futuras agregar el estado a cada reserva como " eliminada o confirmada " y se pueden generar dos listas una solo de confirmadas y otra de eliminadas, con el id correlativo de cada una para efectos de contabilidad, trazabilidad y estadísticas.
+
+En el siguiente caso se simularon dos reservas y se eliminó la primera, lo que implica que si luego en el proceso de compra, que solicita id de reserva desea comprar la primera reserva, no podrá
+
+![Captura de pantalla 2025-05-10 144539](https://github.com/user-attachments/assets/45273f9f-aabb-459f-9d29-703fdd344e72)
+
+![Captura de pantalla 2025-05-10 144836](https://github.com/user-attachments/assets/b3bae5ec-8fe3-47e0-b725-4a4933dac779)
+
+![Captura de pantalla 2025-05-10 145818](https://github.com/user-attachments/assets/2090d812-433e-45c6-a736-afab5dd7553e)
+
 
 ![Captura de pantalla 2025-05-05 153351](https://github.com/user-attachments/assets/b6eacb84-01ac-4786-9a5a-bc177bf1523f)
-
-Si la persona sí desea eliminar la reserva: 
-
-![Captura de pantalla 2025-05-05 153455](https://github.com/user-attachments/assets/d0e1d0fc-4b4c-4d40-ae5a-62a26fb8998e)
 
 Si el usuario ingresa una respuesta no valida, se maneja esto: 
 
 ![Captura de pantalla 2025-05-05 153545](https://github.com/user-attachments/assets/cea54a6f-aaa0-4472-bfab-f4da07d5a4f5)
+
+
+CONFIRMACIÓN DE COMPRA
+
 
 Si la persona NO confirma la compra, se liberan los asientos de su reserva y se verifican en el mapa: 
 ![Captura de pantalla 2025-05-05 153632](https://github.com/user-attachments/assets/41cf7af0-9cbd-4c89-90e2-9a1bcdc9f13c)
