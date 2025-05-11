@@ -221,8 +221,6 @@ En el siguiente caso, se realiza la compra de asiento b1 y b2 y se anula la comp
 - las estadisticas generales contabilizan ventas totales como la sumatoria de las efectivas y anuladas, con sus clasificaciones
   
 ![Captura de pantalla 2025-05-10 204223](https://github.com/user-attachments/assets/ee431ead-fa4b-431f-aa03-08a8dd00dd21)
-![Captura de pantalla 2025-05-10 201422](https://github.com/user-attachments/assets/99c1a91b-b53b-4f25-ac35-c00bf441954f)
-
 
 Luego de varios movimientos se puede pedir una estadistica general en el estado actual, que incluye la sumatoria o resta de los ingresos según los totales a pagar. 
 
