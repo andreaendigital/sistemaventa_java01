@@ -190,7 +190,6 @@ En el siguiente caso se simularon dos reservas y se eliminó la primera, lo que 
 ![Captura de pantalla 2025-05-10 145818](https://github.com/user-attachments/assets/2090d812-433e-45c6-a736-afab5dd7553e)
 
 
-![Captura de pantalla 2025-05-05 153351](https://github.com/user-attachments/assets/b6eacb84-01ac-4786-9a5a-bc177bf1523f)
 
 Si el usuario ingresa una respuesta no valida, se maneja esto: 
 
