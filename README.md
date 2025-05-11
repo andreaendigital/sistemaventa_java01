@@ -205,7 +205,12 @@ El ejercicio fue realizar una reserva, no confimarla como compra, de todas maner
 ![Captura de pantalla 2025-05-05 153757](https://github.com/user-attachments/assets/e66c7bcc-d827-4e61-99a7-a1ca6043558b)
 
 Al confirmar la compra, se muestra el mapa con los asientos ocupados "OO":
-![Captura de pantalla 2025-05-05 154253](https://github.com/user-attachments/assets/efd90fe1-07aa-4a26-a232-0334800ff776)
+
+![Captura de pantalla 2025-05-10 203708](https://github.com/user-attachments/assets/3f1a97b6-9a0b-4e32-94fa-311822f70b8e)
+
+
+
+
 
 
 ANULACION DE COMPRA:
