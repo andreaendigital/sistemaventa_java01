@@ -271,8 +271,8 @@ Hay pequeños detalles que quizás pasan por alto como son cuando el programa id
 
 
 
-Con la opción 13 se entrega un mensaje de salida y se cierra el programa:
-![Captura de pantalla 2025-05-05 150811](https://github.com/user-attachments/assets/8da14056-011a-45b8-b11c-f731172497ae)
+Con la opción 16 se entrega un mensaje de salida y se cierra el programa:
+![Captura de pantalla 2025-05-10 210559](https://github.com/user-attachments/assets/a557e4b6-d7ce-4aab-9aaa-8c9163c4e591)
 
 
 OPTIMIZACIONES Y PRUEBAS
