@@ -223,18 +223,48 @@ En el siguiente caso, se realiza la compra de asiento b1 y b2 y se anula la comp
 
 Luego de varios movimientos se puede pedir una estadistica general en el estado actual, que incluye la sumatoria o resta de los ingresos según los totales a pagar. 
 
+Se realiza un caso de ejemplo: 
+- se realizan cuatro reservas
+- la primera reseva con cuatro entradas con distintos descuentos
+- se elimina la segunda reserva, los tickets reservados respectivos se anulan pero se conserva su id para registro
+- la reserva 1, 3, y 4 pasan a ser compras efectivas y sus id de ventas pasan a ser 1, 2 y 3
+- la compra 2 se anula, pasando a la lista de ventas anuladas
+- genera las listas respectivas y las estadisticas de todos estos movimientos:
+- la lista de clientes registrados se agrego el criterio del rol, identificando a los clientes asistentes asignados a las etnradas y además al cliente principal pagador o comprador
+- la lista de tickets vendidos falta el 5 que fue eliminado
+
+  
+![Captura de pantalla 2025-05-10 201333](https://github.com/user-attachments/assets/734dfe84-1b7e-4efb-b187-0e67a63f0867)
+
+![Captura de pantalla 2025-05-10 201348](https://github.com/user-attachments/assets/2a330498-125f-4ec3-b293-e6ad4722b3e8)
+
+![Captura de pantalla 2025-05-10 201356](https://github.com/user-attachments/assets/55fcf4dd-5696-42e7-9b48-650ec3533e59)
+
+![Captura de pantalla 2025-05-10 201409](https://github.com/user-attachments/assets/42db85d4-d632-41cf-9e2f-372de86e1bb1)
+
+![Captura de pantalla 2025-05-10 201422](https://github.com/user-attachments/assets/605c6031-118c-4045-a163-70bca29b7991)
+
+![Captura de pantalla 2025-05-10 201438](https://github.com/user-attachments/assets/4888b524-1c87-4161-8ba1-524106096a76)
 
 
 
+Se imprime la boleta con el detalle de entradas compradas según id ingresado, indica su número de ticket, asiento y tipo de descuento
+
+![Captura de pantalla 2025-05-10 202054](https://github.com/user-attachments/assets/2804d374-f96f-4b5f-98d8-aed80a327c96)
 
 
+Se imprimen los tickets respectivos a la compra según ID
 
-Se valida descuentos a aplicar según edad se determina el tipo de Descuento, si es estudiante, tercera edad, sin descuento o
-promoción 4 entradas: 
+![Captura de pantalla 2025-05-10 202321](https://github.com/user-attachments/assets/35e8db01-b88a-4664-a012-ad4aa6f823c7)
+
+![Captura de pantalla 2025-05-10 202329](https://github.com/user-attachments/assets/3b29a96a-9aa9-4656-80ff-5adaf1e6f636)
 
 
+Se puede observar que en los tickets y en el listado de clientes registrados que se aplica el mayor descuento, por ejemplo si tiene 10 años pero es mujer, se valida el descuento mayor por género y se aplica 20% o si es mujer pero de tercera edad se aplica el 25%
 
+Hay pequeños detalles que quizás pasan por alto como son cuando el programa identifica si el usuario ya ha sido registrado antes: 
 
+![Captura de pantalla 2025-05-10 202857](https://github.com/user-attachments/assets/aa2fa989-471b-4fc7-abce-17b375b93bde)
 
 
 
@@ -249,9 +279,12 @@ OPTIMIZACIONES Y PRUEBAS
 - Como parte de las optimizaciones se decidió utilizar la estructura de datos Array para los Asientos y de esta manera poder desplegar el mapa del teatro como matriz y se tomó la decisión del resto de utilizar listas.
 - Así mismo se presenta un código con menos comentarios que los anteriores, ya que según lo indicado el exceso de comentarios también va cargando tiempos de ejecución del programa.
   
-Durante la realización del código se hicieron múltiples pruebas de su ejecución encontrando detalles y se mejoraron.
+Durante la realización del código se hicieron múltiples pruebas de su ejecución encontrando detalles y se mejoraron como por ejemplo en el siguiente caso que fallaba el ciclo por que estaba mal estructurado: 
 
+![Captura de pantalla 2025-05-10 202632](https://github.com/user-attachments/assets/83e6f236-d10a-4d26-94e8-fb037fc3e697)
 
+O al refactorizar el código anterior y agregar las modificaciones un contador que antes servia ahora estaba causando conflicto: 
+![Captura de pantalla 2025-05-10 202720](https://github.com/user-attachments/assets/f4f12b57-2d82-4009-97d0-1b0d62f4ab04)
 
 
 
